@@ -6,6 +6,8 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 from PIL import Image
 
+st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.news-medical.net%2Fhealth%2FStructure-and-Function-of-the-Heart.aspx&psig=AOvVaw1cwunYl_aS3dC-mZpOaN92&ust=1751003416499000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMj1naSyjo4DFQAAAAAdAAAAABAE", caption="Heart Health", use_column_width=True)
+
 # Load data
 heart_data = pd.read_csv('heart_disease_data.csv')
 X = heart_data.drop(columns='target', axis=1)
