@@ -6,7 +6,14 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 from PIL import Image
 
-st.image("https://img.freepik.com/free-vector/charity-logo-hands-supporting-heart-icon-flat-design-vector-illustration_53876-136266.jpg?semt=ais_items_boosted&w=740", caption="Heart Health", use_container_width=True)
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <img src="https://img.freepik.com/free-vector/charity-logo-hands-supporting-heart-icon-flat-design-vector-illustration_53876-136266.jpg?semt=ais_items_boosted&w=740">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Load data
 heart_data = pd.read_csv('heart_disease_data.csv')
