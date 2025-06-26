@@ -9,7 +9,7 @@ from PIL import Image
 st.markdown(
     """
     <div style="text-align: center;">
-        <img src="https://img.freepik.com/free-vector/charity-logo-hands-supporting-heart-icon-flat-design-vector-illustration_53876-136266.jpg?semt=ais_items_boosted&w=740">
+        <img src="https://img.freepik.com/free-vector/charity-logo-hands-supporting-heart-icon-flat-design-vector-illustration_53876-136266.jpg?semt=ais_items_boosted&w=740" width=300>
     </div>
     """,
     unsafe_allow_html=True
