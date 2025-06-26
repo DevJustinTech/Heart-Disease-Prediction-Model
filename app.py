@@ -89,6 +89,6 @@ with st.form("input_form"):
 # st.subheader("About the Dataset")
 # st.write(heart_data.head())
 
-st.subheader("Model Performance")
-st.write(f"Training Accuracy: {training_data_accuracy:.2f}")
-st.write(f"Test Accuracy: {test_data_accuracy:.2f}")
+# st.subheader("Model Performance")
+# st.write(f"Training Accuracy: {training_data_accuracy:.2f}")
+# st.write(f"Test Accuracy: {test_data_accuracy:.2f}")
