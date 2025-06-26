@@ -76,9 +76,9 @@ with st.form("input_form"):
         else:
             st.error("⚠️ This person is likely to have heart disease.")
 
-# Display info
-st.subheader("About the Dataset")
-st.write(heart_data.head())
+# # Display info
+# st.subheader("About the Dataset")
+# st.write(heart_data.head())
 
 st.subheader("Model Performance")
 st.write(f"Training Accuracy: {training_data_accuracy:.2f}")
